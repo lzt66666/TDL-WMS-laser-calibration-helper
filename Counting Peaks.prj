@@ -1,0 +1,89 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3996918616" file="/Users/sirosafc/Desktop/CO2/CO2_test01/peaks_counting_aid/Counting Peaks.prj" location="/Users/sirosafc/Desktop/CO2/CO2_test01/peaks_counting_aid" name="Counting Peaks" target="target.mlapps" target-name="打包为 App">
+    <param.appname>Counting Peaks</param.appname>
+    <param.authnamewatermark>李宗泰</param.authnamewatermark>
+    <param.email>lizt19@mails.tsinghua.edu.cn</param.email>
+    <param.company>Tsinghua University</param.company>
+    <param.icon>${PROJECT_ROOT}/Counting Peaks_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/Counting Peaks_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/Counting Peaks_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/Counting Peaks_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary />
+    <param.description>辅助使用者对标准具数据进行统计
+1.2版本更新：
+1）增加新的键盘按键映射（上：up，下：down，左或空格：no change，右：I don't want this one）
+2）图窗右上角实时显示标记点转化为波数的示意图，用垂直红线标记上一次保存的数据位置
+1.1版本更新：
+1）引入键盘按键映射（上：up，下：down，左：no change，右：I don't want this one）
+2）判断用户可能误操作后弹出提示要求确认，减少错误发生的概率。</param.description>
+    <param.screenshot>/private/var/folders/3d/glwjb1z97_d02spfq6sxb03w0000gn/T/tpc28613bc_77af_4c08_8af4_220b92e662fd.png</param.screenshot>
+    <param.version>1.2</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>77faccff-9242-4200-b7df-f20777003cac</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/counting_peaks.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/sirosafc/Desktop/CO2/CO2_test01" name="peaks_counting_aid" optional="false">/Users/sirosafc/Desktop/CO2/CO2_test01/peaks_counting_aid</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2021a.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.16</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
