@@ -11,6 +11,11 @@ A user guide is included in the released_version.zip. The etalon pre-process (pr
 For quick started, an etalon sample data is available for tests (WFM.csv and SCR.png. The png correspond to the csv data). 
 This data can be automaticly converted to *.mat file which is actually used in the UI program. See detailed instructions in the user guide.
 
+## File list
+### *.mlapp: MATLAB UI app file. Executable file when MATLAB is installed. Open from the MATLAB file manager to edit the source code.
+### *.m: MATLAB script. Only runs in MATLAB.
+### *.csv & *.png: sample data for etalon peaks.
+
 ## Reference
 <div id="chao_WMS"></div>
 [1] Sun K, Chao X, Sur R, Goldenstein C, Jeffries J, Hanson R. Analysis of calibration-free wavelength-scannedwavelength modulation spectroscopy for practical gas sensing using tunable diode lasers. Measurement Sci-ence and Technology, 2013, 24 (12): 125203.
