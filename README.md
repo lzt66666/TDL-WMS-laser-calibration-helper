@@ -12,6 +12,7 @@ For quick started, an etalon sample data is available for tests (WFM.csv and SCR
 This data can be automaticly converted to *.mat file which is actually used in the UI program. See detailed instructions in the user guide.
 
 ## File list
+### *.mlappinstall: MATLAB UI app installation file. You can use this file to install the UI app to your MATLAB. Launch app in App tab of MATLAB window.
 ### *.mlapp: MATLAB UI app file. Executable file when MATLAB is installed. Open from the MATLAB file manager to edit the source code.
 ### *.m: MATLAB script. Only runs in MATLAB.
 ### *.csv & *.png: sample data for etalon peaks.
