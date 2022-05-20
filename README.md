@@ -7,9 +7,9 @@ This code requires MATLAB R2019b or higher version (Windows, macOS, Linux). You 
 It is recommended to use the latest version for editing. 
 
 ## User guide
-A user guide is included in the released_version.zip. The etalon pre-process (pre_process.m) and post-process (post_process.m) code is offered without UI. 
+See user guide in UserGuide4etalonCountingAPP.pptx. The etalon pre-process (pre_process.m) and post-process (post_process.m) code is offered without UI. 
 For quick started, an etalon sample data is available for tests (WFM.csv and SCR.png. The png correspond to the csv data). 
-This data can be automaticly converted to *.mat file which is actually used in the UI program. See detailed instructions in the user guide.
+This data can be automaticly converted to *.mat file by pre_process.m. The generated *.mat file can be directly read by UI app. See detailed instructions in the user guide.
 
 ## File list
 ### *.mlappinstall: MATLAB UI app installation file. You can use this file to install the UI app to your MATLAB. Launch app in App tab of MATLAB window.
