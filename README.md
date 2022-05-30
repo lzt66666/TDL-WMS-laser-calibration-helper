@@ -18,8 +18,8 @@ This data can be automaticly converted to *.mat file by pre_process.m. The gener
 ### *.csv & *.png: sample data for etalon peaks.
 
 ## Please cite this article for using this app in your related work.
-https://www.researchgate.net/publication/360309357_Fourier_and_Wavelet_Transform_Analysis_of_Wavelength_Modulation_Spectroscopy_Signal
+Li, Z., Wang, Z., Mével, R., Chao, X. Fourier and wavelet transform analysis of wavelength modulation spectroscopy signal. Applied Physics B 128, 109 (2022). https://doi.org/10.1007/s00340-022-07834-7
 
 ## Reference
 <div id="chao_WMS"></div>
-[1] Sun K, Chao X, Sur R, Goldenstein C, Jeffries J, Hanson R. Analysis of calibration-free wavelength-scannedwavelength modulation spectroscopy for practical gas sensing using tunable diode lasers. Measurement Sci-ence and Technology, 2013, 24 (12): 125203.
+[1] Sun K, Chao X, Sur R, Goldenstein C, Jeffries J, Hanson R. Analysis of calibration-free wavelength-scannedwavelength modulation spectroscopy for practical gas sensing using tunable diode lasers. Measurement Science and Technology, 2013, 24 (12): 125203.
