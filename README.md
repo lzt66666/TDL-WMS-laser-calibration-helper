@@ -3,7 +3,7 @@ This is a UI program for helping manully counting etalon peaks in TDL-WMS laser 
 This calibration process is decribed by Chao et al. [<sup>1</sup>](#chao_WMS)
 
 ## System requirements
-This code requires MATLAB R2019b or higher version (Windows, macOS, Linux). You may still be able to run this code on a earlier version. 
+This code requires MATLAB R2019b or higher version (Windows, macOS, Linux). You may still be able to run this code on earlier versions. 
 It is recommended to use the latest version for editing. 
 
 ## User guide
